@@ -1,4 +1,4 @@
-FROM golang:1.19-alpine AS build-env
+FROM golang:23.5-alpine AS build-env
 
 # Set up dependencies
 ENV PACKAGES make cmake git libc-dev bash gcc linux-headers eudev-dev curl ca-certificates build-base libc-dev
